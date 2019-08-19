@@ -6,7 +6,7 @@ from tkinter import *
 root = Tk()
 
 root.title("Pixel Panda")
-root.iconbitmap(default='logo.ico')
+root.iconbitmap(default='D:\\Pixel_Panda\\Images\\logo.ico')
 lbl = Label(root, text="Welcome to Wizard", font=("Arial Bold", 20), fg="#020042", bg="#e8e8fc")
 lbl.grid(column=0, row=0, pady=(56, 20), padx=(92, 90))
 root.resizable(0, 0)

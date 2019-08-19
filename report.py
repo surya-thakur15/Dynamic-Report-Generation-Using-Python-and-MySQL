@@ -16,7 +16,7 @@
 #     c.setFont('Times-Bold', 20, leading=None)
 #     c.drawString(175, 670, " ")
 #
-#     head_logo = 'head_logo.png'
+#     head_logo = 'D:\\Pixel_Panda\\Images\\head_logo.png'
 #     c.drawImage(head_logo, 100, 647, width=61, height=61)
 #     #
 #     tool_logo = 'tool.jpeg'

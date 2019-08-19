@@ -43,7 +43,7 @@ def myFirstPage(c, doc, content):
     c.setFont('Times-Bold', 23, leading=None)
     c.drawString(135, 670, "Transpipe Integrity Solutions Pvt Ltd")
 
-    head_logo = 'head_logo.png'
+    head_logo = 'D:\\Pixel_Panda\\Images\\head_logo.png'
     c.drawImage(head_logo, 60, 645, width=71, height=71)
 
     tool_logo = 'tool.jpeg'  # pic of tool
@@ -106,7 +106,7 @@ def myFirstPage(c, doc, content):
     c.showPage()    # Page break for the second page
 
     c.setFont('Times-Roman', 10)
-    head_logo = 'head_logo.png'
+    head_logo = 'D:\\Pixel_Panda\\Images\\head_logo.png'
     c.drawImage(head_logo, 1 * inch, 10.75 * inch, width=50, height=50)
     c.drawString(5.265 * inch, 10.8 * inch, " ")
     c.drawString(inch, 0.65 * inch, " ")
@@ -120,7 +120,7 @@ def myLaterPages(canvas, doc):
     """this function will data on later pages"""
     canvas.saveState()
     canvas.setFont('Times-Roman', 10)
-    head_logo = 'head_logo.png'
+    head_logo = 'D:\\Pixel_Panda\\Images\\head_logo.png'
     canvas.drawImage(head_logo, 1 * inch, 10.75 * inch, width=50, height=50)
     canvas.drawString(5.265 * inch, 10.8 * inch, " ")
     canvas.drawString(inch, 0.65 * inch, " ")
@@ -400,7 +400,7 @@ def go(data, key, s_name):
 
     Elements.append(PageBreak())
 
-    thk = Image('D:\\Pixel_Panda\\thank.png', 7.2 * inch, 5 * inch)
+    thk = Image('D:\\Pixel_Panda\\Images\\thank.png', 7.2 * inch, 5 * inch)
     Elements.append(Spacer(0, 2.5 * inch))
     Elements.append(thk)
 
